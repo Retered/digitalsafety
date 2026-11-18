@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#18354d" />
     <title>Think Before You Post</title>
     <link rel="icon" type="image/png" href="favicon.png" />
-    <link rel="shortcut icon" type="image/png" href="favicon.png" />
     <link rel="apple-touch-icon" href="favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=2" />
   </head>
   <body>
-    <header class="hero" id="top">
+    <header class="site-header">
       <nav class="topbar" aria-label="Main navigation">
         <a class="brand" href="#top">Digital Citizenship</a>
         <div class="nav-links">
@@ -23,17 +23,18 @@
           <a href="#reflection">Reflection</a>
         </div>
       </nav>
+    </header>
 
+    <section class="hero" id="top" aria-labelledby="page-title">
       <div class="hero-content">
-        <p class="eyebrow">Aotearoa New Zealand · Digital wellbeing</p>
-        <h1>Think Before<br />You Post</h1>
+        <p class="eyebrow">Aotearoa New Zealand</p>
+        <h1 id="page-title">Think Before You Post</h1>
         <p class="subtitle">
           Understanding the Harmful Digital Communications Act and how to be a safe,
           respectful online citizen.
         </p>
-        <a class="hero-link" href="#about">Start here <span aria-hidden="true">↓</span></a>
       </div>
-    </header>
+    </section>
 
     <main>
       <section id="about" class="section intro">
@@ -55,30 +56,25 @@
         </div>
       </section>
 
-      <section id="examples" class="section highlight">
+      <section id="examples" class="section examples">
         <div class="section-heading">
           <p class="section-number">02</p>
           <h2>Examples of harmful digital communication</h2>
         </div>
-
         <div class="cards">
           <article class="card">
-            <span class="card-mark" aria-hidden="true">↗</span>
             <h3>Abusive messages</h3>
             <p>Sending threatening, insulting, or repeated hostile messages to another person.</p>
           </article>
           <article class="card">
-            <span class="card-mark" aria-hidden="true">◫</span>
             <h3>Sharing private content</h3>
             <p>Posting someone’s personal details, intimate images, or private information without consent.</p>
           </article>
           <article class="card">
-            <span class="card-mark" aria-hidden="true">◎</span>
             <h3>Rumours and shaming</h3>
             <p>Spreading lies, embarrassing stories, or humiliating posts that damage someone’s reputation.</p>
           </article>
         </div>
-
         <div class="content-block">
           <p>
             These actions can cause emotional distress and long-term harm. Under the Act, people who have been affected may seek help, and court orders can be made to remove harmful content or stop further communication. In serious situations, there can also be criminal penalties, including significant fines or even imprisonment. This shows that online behaviour still carries real responsibility.
@@ -89,9 +85,8 @@
       <section id="tips" class="section tips-section">
         <div class="section-heading">
           <p class="section-number">03</p>
-          <h2>Five ways to be a safe, respectful digital citizen</h2>
+          <h2>Five ways to be a safe and respectful digital citizen</h2>
         </div>
-
         <ol class="tips-list">
           <li><span>01</span><div><strong>Pause before you post.</strong><p>Ask yourself if your words are kind, fair, and necessary.</p></div></li>
           <li><span>02</span><div><strong>Respect privacy.</strong><p>Do not share personal information or images without permission.</p></div></li>
